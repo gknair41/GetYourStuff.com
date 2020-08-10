@@ -1,0 +1,90 @@
+<html>
+<head>
+<title> ORDER </title>
+<STYLE>
+h1{color:yellow;
+	background-color:orange;
+	text-align:center;}
+
+
+
+</STYLE>
+
+
+</head>
+
+
+<body>
+<h1>ORDER PLACING</h1>
+
+
+<script>
+function order(){
+	
+	alert("order confirmed!!!");
+
+
+}
+
+</script>
+
+
+<form action="ec.html">
+<H5> PHONE</H5>
+model name<input type="text" name="name"  size="20" maxlength="20" value="enter the model name"/>    <br><br>
+
+quantity:<input type="number" name="no" size="2" maxlength="1" value="enter quantity">  <br><br>
+
+
+Gift packing<input type="checkbox" name="packing" value="yes">
+
+<br><br>
+<H5> SHIPPING DETAILS</H5>
+
+
+username:<input type="text" name="username" size="20" maxlength="30" value="enetr ur anme">    <br><br>
+
+phoneno:<input type="number" name="no" size="10" maxlength="10" value="mobile no.">    <br><br>
+<br>
+address<br>
+<textarea name="address">enter ur addresss
+</textarea>
+<br>
+
+country
+<select name="country">
+<option>india</option>
+<option>usa</option>
+<option>uae</option>
+<option>china</option>
+
+
+</select>
+
+
+
+<br><br>
+<H5>PAYMENT MODE</H5>
+COD<input type="radio" name="cash" value="COD"><br>
+
+cards<input type="radio" name="cash" value="netbanking"><br>
+net banking<input type="radio" name="cash" value="netbanking"><br>
+<br>
+<br>
+
+please enter ur password to <b>confirm</b> ur order...<br>
+password:<input type="password" name="pword" maxlength="15" size="10">
+
+<br><br>
+<input type="submit" value="submit" onclick="order()">
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
+
